@@ -26,7 +26,7 @@ public class InputManager : MonoBehaviour
 				Debug.Log("Jump");
 				break;
 			case 'a':
-				this.playerMovement.MoveLeft();
+				this.playerMovement.MoveRight();
 				Debug.Log("Move Left");
 				break;
 			case 's':
@@ -34,7 +34,7 @@ public class InputManager : MonoBehaviour
 				Debug.Log("Dash");
 				break;
 			case 'd':
-				this.playerMovement.MoveRight();
+				this.playerMovement.MoveLeft();
 				Debug.Log("Move Right");
 				break;
 		}

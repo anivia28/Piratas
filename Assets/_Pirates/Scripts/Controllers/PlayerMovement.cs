@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour 
 {
+	[SerializeField] private float laneSpeed;
 	[SerializeField] private float laneOffset;
 	[SerializeField] private int lane;
 	// [SerializeField] private AudioClip jumpAudioFX;
 	// [SerializeField] private AudioClip dashAudioFX;
-	private Rigidbody rigidbody;
+	private new Rigidbody rigidbody;
 	// Use this for initialization
 	void Start () 
 	{
@@ -32,7 +33,8 @@ public class PlayerMovement : MonoBehaviour
 		if (lane > -1)
 		{
 			this.lane--;
-			this.transform.Translate(new Vector3(-this.laneOffset, 0, 0));
+			StartCoroutine(this.MoveCoroutine(new Vector3(-this.laneOffset, 0, 0)));
+			// this.transform.Translate(new Vector3(-this.laneOffset, 0, 0));
 		}
 	}
 
@@ -41,11 +43,21 @@ public class PlayerMovement : MonoBehaviour
 		if (lane < 1)
 		{
 			this.lane++;
-			this.transform.Translate(new Vector3(this.laneOffset, 0, 0));
+			StartCoroutine(this.MoveCoroutine(new Vector3(this.laneOffset, 0, 0)));
+			// this.transform.Translate(new Vector3(this.laneOffset, 0, 0));
 		}
 	}
+
+	public IEnumerator MoveCoroutine(Vector3 destination)
+	{
+		Debug.Log("Move Coroutine Called");
+		while (!Mathf.Approximately(Vector3.Distance(this.transform.localPosition, destination), 0))
+		{
+			this.transform.localPosition = this.transform.localPosition + (destination * Time.deltaTime * this.laneSpeed);
+			yield return null;
+		}
+	}	
 	
-	// Update is called once per frame
 	void Update () 
 	{
 		
