@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
 	public void MoveLeft()
 	{
-		if (lane > -1)
+		if (lane < 1)
 		{
 			this.lane--;
 			StartCoroutine(this.MoveCoroutine(new Vector3(-this.laneOffset, 0, 0)));
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
 	public void MoveRight()
 	{
-		if (lane < 1)
+		if (lane > -1)
 		{
 			this.lane++;
 			StartCoroutine(this.MoveCoroutine(new Vector3(this.laneOffset, 0, 0)));
