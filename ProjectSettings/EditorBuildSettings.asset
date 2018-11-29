@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Pirates/Scenes/Runner.unity
     guid: 6b80c901a2b724110876daaea69b45c6
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Pirates/Scenes/Props.unity
     guid: b5fa45c32fca04da0bed5c45093d2e63
   m_configObjects: {}
