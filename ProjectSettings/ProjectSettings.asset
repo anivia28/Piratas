@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
-  productGUID: 358849f1b14f5264a829bc891dc01fb8
+  productGUID: d46684b5215c146a2b2cc949091fda07
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -830,10 +830,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 3
-  cloudProjectId: fe274d0d-ebb1-4c07-bfb4-ee0b49801c6f
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: PirateRunner
-  organizationId: aestial
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
