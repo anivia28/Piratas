@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5397c64509ab92a4b9e8309aebcb66e1, type: 3}
+  m_Name: themeData
+  m_EditorClassIdentifier: 
+  themeName: Docks
+  cost: 0
+  premiumCost: 0
+  themeIcon: {fileID: 21300036, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+  zones:
+  - length: 1000
+    prefabList:
+    - m_AssetGUID: 7fb1f6baa9d1149fba198b8c57a74bbe
+      m_SubObjectName: 
+  collectiblePrefab: {fileID: 8162843833012802524, guid: 2976f5589f29046209cc6ec439a00245,
+    type: 3}
+  premiumCollectible: {fileID: 4641318095375205756, guid: cfb87ce5312f24c68972f09321f779bc,
+    type: 3}
+  cloudPrefabs:
+  - {fileID: 1000012225143368, guid: 9a717c8140347479ea5646323e8af535, type: 3}
+  - {fileID: 1000012941456988, guid: 0532a4d688a4a4cb09ec1502c4e0002b, type: 3}
+  - {fileID: 1000013540275922, guid: dc81a8ca827134a4a9e2e2c3f7cbbe8e, type: 3}
+  cloudMinimumDistance: {x: 0, y: 20, z: 15}
+  cloudSpread: {x: 5, y: 0, z: 1}
+  cloudNumber: 10
+  skyMesh: {fileID: 4300002, guid: 0fd40b0b70fef064c9b7e20779b1f8ec, type: 3}
+  UIGroundMesh: {fileID: 4300000, guid: 28288b28edded764b843730ced06fb8c, type: 3}
+  fogColor: {r: 0.86274517, g: 0.9725491, b: 1, a: 1}
