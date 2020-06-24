@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Beach-Sky
+  m_EditorClassIdentifier: 
+  m_GroupName: Beach-Sky
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5e5ac6fd22913495984e76e01703359f
+  m_SerializeEntries:
+  - m_GUID: 0532a4d688a4a4cb09ec1502c4e0002b
+    m_Address: DocksCloud02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 1000012941456988, guid: 0532a4d688a4a4cb09ec1502c4e0002b,
+      type: 3}
+    m_TargetAsset: {fileID: 1000012941456988, guid: 0532a4d688a4a4cb09ec1502c4e0002b,
+      type: 3}
+  - m_GUID: 9a717c8140347479ea5646323e8af535
+    m_Address: DocksCloud01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 1000012225143368, guid: 9a717c8140347479ea5646323e8af535,
+      type: 3}
+    m_TargetAsset: {fileID: 1000012225143368, guid: 9a717c8140347479ea5646323e8af535,
+      type: 3}
+  - m_GUID: dc81a8ca827134a4a9e2e2c3f7cbbe8e
+    m_Address: DocksCloud03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 1000013540275922, guid: dc81a8ca827134a4a9e2e2c3f7cbbe8e,
+      type: 3}
+    m_TargetAsset: {fileID: 1000013540275922, guid: dc81a8ca827134a4a9e2e2c3f7cbbe8e,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3a0a41c8516044f2cb9d120010221a0e, type: 2}
+    - {fileID: 11400000, guid: d64a90f42b71a49f8b52ea45f13c004a, type: 2}
